@@ -13,9 +13,7 @@ class App extends Component {
         {id: 3},
         {id: 4},
         {id: 5},
-        {id: 6},
-        {id: 7}
-
+        {id: 6}
       ]
     };
   }
@@ -55,6 +53,7 @@ class Graph extends Component {
        .attr("cx", (d) => d.id * 30)
        .attr("cy", 30);
    }
+
   render() {
     return(
       <div className="chart-wrapper">
